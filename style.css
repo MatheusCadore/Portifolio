@@ -104,3 +104,40 @@ img {
     max-width: 250px;
   }
 }
+
+.projetos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+}
+
+.projetos-texto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 1rem;
+}
+
+.projetos-texto h1 {
+  font-size: 36px;
+}
+
+.projetos-texto h2 {
+  font-weight: lighter;
+}
+
+.projetos-grade {
+    margin: 0px auto 6rem;
+    display: grid;
+    max-width: calc(1280px + 2rem);
+    padding: 0px 1rem;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
