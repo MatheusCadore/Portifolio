@@ -45,7 +45,7 @@ img {
 .wave {
   position: relative;
   background: linear-gradient(to bottom, #005726, #072c18);
-  height: 1000px;
+  height: 850px;
   width: 100vw;
   color: white;
   overflow: hidden;
@@ -106,22 +106,22 @@ img {
 }
 
 .projetos {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 3rem 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
 }
 
 .projetos-texto {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    gap: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 1rem;
 }
 
 .projetos-texto h1 {
@@ -133,11 +133,45 @@ img {
 }
 
 .projetos-grade {
-    margin: 0px auto 6rem;
-    display: grid;
-    max-width: calc(1280px + 2rem);
-    padding: 0px 1rem;
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
+  margin: 0px auto 6rem;
+  display: grid;
+  max-width: calc(1280px + 2rem);
+  padding: 0px 1rem;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 1rem;
+  border-radius: 2rem;
+  gap: 2rem ;
+  border: 1px solid rgba(43, 105, 251, 0.12);
+  box-shadow: rgba(43, 105, 251, 0.06) 0px 0px 1rem 1rem;
+}
+
+.projetos-grade img {
+  border-radius: 0.8rem;
+  background-position: center top;
+  padding: 0 0 10px 0;
+}
+
+.projetos-grade h3{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.projetos-grade p{
+  font-weight: lighter;
+}
+
+.git-img{
+  margin: 16px 0 0 0;
+  width: 24px;
+  height: auto;
 }
