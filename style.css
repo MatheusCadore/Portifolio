@@ -38,9 +38,10 @@ body {
 }
 
 img {
-  width: 400px;
+  width: 450px;
   height: auto;
 }
+
 
 .wave {
   position: relative;
@@ -150,7 +151,7 @@ img {
   height: 100%;
   padding: 1rem;
   border-radius: 2rem;
-  gap: 2rem ;
+  gap: 2rem;
   border: 1px solid rgba(43, 105, 251, 0.12);
   box-shadow: rgba(43, 105, 251, 0.06) 0px 0px 1rem 1rem;
 }
@@ -159,19 +160,46 @@ img {
   border-radius: 0.8rem;
   background-position: center top;
   padding: 0 0 10px 0;
+
 }
 
-.projetos-grade h3{
+.projetos-grade h3 {
   font-size: 24px;
   font-weight: bold;
 }
 
-.projetos-grade p{
+.projetos-grade p {
   font-weight: lighter;
 }
 
-.git-img{
+.git-img {
   margin: 16px 0 0 0;
   width: 24px;
   height: auto;
+  cursor: pointer;
+}
+
+.botton {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(to bottom, #005726, #072c18);
+  display: flex;
+  position: relative;
+
+}
+
+.botton div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 40px;
+  display: flex;
+  gap: 1rem;
+}
+
+.botton div img {
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+
 }
